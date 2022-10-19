@@ -1,1 +1,1 @@
-<H2>HELLO johanlu</H2>
+<H2>HELLO  {{$name}} </H2>
