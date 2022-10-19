@@ -13,15 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-
-       //   \App\Models\User::factory(10)->create([
-       // 'name' => 'test user';
-       // 'email' => 'test@example';
-       //]);
-
-
         $this->call([
+            // flightSeeder::class,
+            roleSeeder::class,
             UserSeeder::class,
         ]); 
     }
